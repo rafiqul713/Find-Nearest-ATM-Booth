@@ -14,7 +14,8 @@ bank = conn.bank
 atm_system = bank['atm_system']
 
 # Google place API key
-MY_API_KEY = 'AIzaSyDv0JAcVbgxwmMLhbMhdCBXZm572-Wkngz'
+giveYourAPIKey=''
+MY_API_KEY = giveYourAPIKey
 google_places = GooglePlaces(MY_API_KEY)
 # Select parameter, search will be happened based on it
 resulted_place = google_places.nearby_search(
